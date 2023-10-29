@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#board {
+    width: 450px;
+    height: 450px;
+    margin: auto;
+
+    border: 1px solid gray;
+
+    position: relative;
+}
+
+div.square {
+    width: 33.33333%;
+    aspect-ratio: 1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #483d8b;
+    border: 2px solid #271e64;
+    transition: left 0.3s, top 0.3s;
+    cursor: pointer;
+}
+
+div.square.well-placed {
+    background-color: #228b5f !important;
+    border: 2px solid #0d6943 !important;
+}
+
+div.square span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
