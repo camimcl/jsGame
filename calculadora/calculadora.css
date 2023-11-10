@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(240, 185, 185);
+}
+#calculadora{
+
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.425) ;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 1px;
+    background-color: rgb(238, 157, 193);
+    border: solid 2px rgba(238, 129, 129, 0.87);
+}
+
+#painel{
+padding: 5px;
+height: 30px;
+text-align: right;
+width: 100%;
+border-bottom: rgba(238, 129, 129, 0.87) solid 1px;
+}
+h2{
+    font-weight: lighter;
+    color: rgba(238, 129, 129, 0.87);
+    padding: 5px;
+    text-align: center;
+}
+table{
+    border: solid 2px rgba(238, 129, 129, 0.87);
+    
+}
