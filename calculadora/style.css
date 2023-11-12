@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(240, 185, 185);
+}
+#calculadora{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 12px;
+   background-color: rgb(230, 158, 158);
+   border-radius: 8px;
+    
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 1px;
+    background-color: rgb(236, 164, 197);
+    border: solid 2px rgba(0, 0, 0, 0.87);
+    border-radius: 4px;
+}
+
+#painel{
+padding: 5px;
+height: 30px;
+text-align: right;
+width: 100%;
+
+}
+h2{
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 5px;
+    text-align: center;
+
+}
+table{
+    border: solid 2px rgba(0, 0, 0, 0.87);
+    border-radius: 4px;
+}
+
+.bottom{
+    border-bottom:solid 2px rgba(0, 0, 0, 0.87);
+}

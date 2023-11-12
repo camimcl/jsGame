@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <h2>Calculadora</h2>
+      <table>
+        <tr class="bottom">
+          <td colspan="4"><p id="painel" style="height: 40px"></p></td>
+        </tr>
+        <tr>
+          <td><button class="btn" id="c-button">c</button></td>
+          <td><button  class="btn" id="erase-button"><</button></td>
+          <td><button class="btn" btn-value="/">/</button></td>
+          <td><button class="btn" btn-value="*">*</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" btn-value="7">7</button></td>
+          <td><button class="btn" btn-value="8">8</button></td>
+          <td><button class="btn" btn-value="9">9</button></td>
+          <td><button class="btn" btn-value="-">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" btn-value="4">4</button></td>
+          <td><button class="btn" btn-value="5">5</button></td>
+          <td><button class="btn" btn-value="6">6</button></td>
+          <td><button class="btn" btn-value="+">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn" btn-value="3">3</button></td>
+          <td><button class="btn" btn-value="2">2</button></td>
+          <td><button class="btn" btn-value="1">1</button></td>
+          <td rowspan="2">
+            <button id="calc" style="height: 100px">=</button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button style="width: 100px" btn-value="0">0</button>
+          </td>
+          <td><button class="btn" btn-value=".">.</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
